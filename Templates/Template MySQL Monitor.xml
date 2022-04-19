@@ -1,0 +1,1965 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zabbix_export>
+    <version>6.0</version>
+    <date>2022-04-12T09:04:02Z</date>
+    <groups>
+        <group>
+            <uuid>7df96b18c230490a9a0a9e2307226338</uuid>
+            <name>Templates</name>
+        </group>
+    </groups>
+    <templates>
+        <template>
+            <uuid>028ae8d22b7a413e9413b460068c036a</uuid>
+            <template>Template MySQL Monitor</template>
+            <name>Template MySQL Monitor</name>
+            <groups>
+                <group>
+                    <name>Templates</name>
+                </group>
+            </groups>
+            <items>
+                <item>
+                    <uuid>e7c5037bc25d4b3181954da9d79411b8</uuid>
+                    <name>Aborted_clients</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Aborted_clients]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>1365e5e6d24d4bb09b2c99ff08a2b1ba</uuid>
+                    <name>Aborted_connects</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Aborted_connects]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>9b13a67d30354d8db8c9778b033ff295</uuid>
+                    <name>Transactions Active Time</name>
+                    <type>TRAP</type>
+                    <key>MySQL[active_time]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <units>s</units>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>aca3205275c84013852b7bbaa5140e08</uuid>
+                    <name>active_transactions</name>
+                    <type>TRAP</type>
+                    <key>MySQL[active_transactions]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>4e5a91c4266e4ec38aafef0acffebcd9</uuid>
+                    <name>Binlog_cache_disk_use</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Binlog_cache_disk_use]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>be4ba3855d4445c0bbbeecc76638d8e4</uuid>
+                    <name>Bytes_received</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Bytes_received]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <units>B</units>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>1aff3a96e27c417cbc18f914955d3e11</uuid>
+                    <name>Bytes_sent</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Bytes_sent]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <units>B</units>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>9094ba758fd647ce9decbcf6638746d2</uuid>
+                    <name>Com_commit</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Com_commit]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>7b369c6b0ae34684b8f678d115cec121</uuid>
+                    <name>Com_delete</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Com_delete]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>33773e9922f74c1ab691c84ab08c6693</uuid>
+                    <name>Com_insert</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Com_insert]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>44d99adf12484e9aae59692307119206</uuid>
+                    <name>Com_rollback</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Com_rollback]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>d7cae02324494c7fbdec4edd5e0b61ca</uuid>
+                    <name>Com_select</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Com_select]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>e96d5437f61648c882af2af1def4feb1</uuid>
+                    <name>Com_update</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Com_update]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>de3b903601064600a5aad0848094a504</uuid>
+                    <name>Created_tmp_disk_tables</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Created_tmp_disk_tables]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>eda4d69cacc04a19bf17cec5f208c63b</uuid>
+                    <name>Created_tmp_files</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Created_tmp_files]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>e6d0c911c2754bb8a37eca8242880e16</uuid>
+                    <name>Created_tmp_tables</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Created_tmp_tables]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>e87b34514876415781402853d8e446b1</uuid>
+                    <name>Handler_commit</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Handler_commit]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>f1f3cb854af94cea86b7ebb8d90f86a7</uuid>
+                    <name>Handler_read_key</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Handler_read_key]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>78f2c23f93c94c738b8a07338050045f</uuid>
+                    <name>Handler_read_next</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Handler_read_next]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>aa43896e875f4344b50b2743d4f07dff</uuid>
+                    <name>Handler_read_rnd</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Handler_read_rnd]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>4c526554b9414097971802e69f0fb96a</uuid>
+                    <name>Handler_read_rnd_next</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Handler_read_rnd_next]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>17f8d19672244f668fcd748b2305f83a</uuid>
+                    <name>Handler_rollback</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Handler_rollback]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>dea9f0aa0cb24445b7ac41957fa1c7ba</uuid>
+                    <name>historylength</name>
+                    <type>TRAP</type>
+                    <key>MySQL[historylength]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                    <triggers>
+                        <trigger>
+                            <uuid>61bc179f3dae4dfe8332a0ffc71d64b5</uuid>
+                            <expression>count(/Template MySQL Monitor/MySQL[historylength],#2,&quot;gt&quot;,&quot;4000&quot;)=2</expression>
+                            <name>History Length greater than 4000</name>
+                            <priority>AVERAGE</priority>
+                        </trigger>
+                    </triggers>
+                </item>
+                <item>
+                    <uuid>5be91b69e23147e5839fa81f0c22900b</uuid>
+                    <name>innodb_buffer_pool_size</name>
+                    <type>TRAP</type>
+                    <key>MySQL[innodb_buffer_pool_size]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <units>M</units>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>a4c64e0d048f42518828777010d6f7ab</uuid>
+                    <name>Innodb_buffer_pool_wait_free</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Innodb_buffer_pool_wait_free]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>a58170085a7042a49f48d2ee740ba706</uuid>
+                    <name>innodb_flush_log_at_trx_commit</name>
+                    <type>TRAP</type>
+                    <key>MySQL[innodb_flush_log_at_trx_commit]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>d1b7c57cfe2d4c148c3a3d603f40ee5e</uuid>
+                    <name>innodb_locked_tables</name>
+                    <type>TRAP</type>
+                    <key>MySQL[innodb_locked_tables]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>5f16f264a9d94a96810da1b89b5f88d4</uuid>
+                    <name>Innodb_log_waits</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Innodb_log_waits]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>44f9fa54f4384c79994d19115569bc2b</uuid>
+                    <name>Innodb_row_lock_current_waits</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Innodb_row_lock_current_waits]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>15271697db7c4a3da70bb90eea579e8a</uuid>
+                    <name>Innodb_row_lock_time</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Innodb_row_lock_time]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>b7656684cfa248aaa976b952d03d3e63</uuid>
+                    <name>Innodb_row_lock_time_avg</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Innodb_row_lock_time_avg]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>4083bb5b3d804d55a888b101d2b8c2b8</uuid>
+                    <name>Innodb_row_lock_waits</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Innodb_row_lock_waits]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>d9acd28e16d94590a3c792283661e80f</uuid>
+                    <name>innodb_tables_in_use</name>
+                    <type>TRAP</type>
+                    <key>MySQL[innodb_tables_in_use]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>f9bea2becff84be19cf06b731cf3682b</uuid>
+                    <name>locked_transactions</name>
+                    <type>TRAP</type>
+                    <key>MySQL[locked_transactions]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                    <triggers>
+                        <trigger>
+                            <uuid>6cd0070d01744c6b80168a75ffcc6b00</uuid>
+                            <expression>count(/Template MySQL Monitor/MySQL[locked_transactions],#2,&quot;gt&quot;,&quot;0&quot;)=2</expression>
+                            <name>Locked Transactions greater than 0</name>
+                            <priority>AVERAGE</priority>
+                        </trigger>
+                    </triggers>
+                </item>
+                <item>
+                    <uuid>68f88718bd70468098e659e3f9e17d38</uuid>
+                    <name>max_connections</name>
+                    <type>TRAP</type>
+                    <key>MySQL[max_connections]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>f2f37c7fbe8747b48552dea89642714e</uuid>
+                    <name>Max_used_connections</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Max_used_connections]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>fbc204d8cac34224894cc9a675fcf499</uuid>
+                    <name>max_user_connections</name>
+                    <type>TRAP</type>
+                    <key>MySQL[max_user_connections]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>1522d53259a3473eb83ae6dc89c2ad79</uuid>
+                    <name>mysql_alive</name>
+                    <type>TRAP</type>
+                    <key>MySQL[mysql_alive]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                    <triggers>
+                        <trigger>
+                            <uuid>eab90ef093004ce88e8b53d5bb842ac3</uuid>
+                            <expression>count(/Template MySQL Monitor/MySQL[mysql_alive],#2,&quot;eq&quot;,&quot;0&quot;)=2</expression>
+                            <name>MySQL is down on {HOST.NAME}</name>
+                            <priority>HIGH</priority>
+                        </trigger>
+                    </triggers>
+                </item>
+                <item>
+                    <uuid>37473311a2ac48948b887c76776d2eff</uuid>
+                    <name>Opened_files</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Opened_files]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>bf4fe1495cf948afa9044b3860e3a2bb</uuid>
+                    <name>Opened_tables</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Opened_tables]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>373445bd1798443d8b5b80576115cae8</uuid>
+                    <name>Opened_table_definitions</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Opened_table_definitions]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>bda6b03e85f449848d14a2833093b8d0</uuid>
+                    <name>Open_files</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Open_files]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>fd99eedf20f24734859b00bb63c5f9c9</uuid>
+                    <name>Open_tables</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Open_tables]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>23100ea3eb0f4f32b311534e13c0c559</uuid>
+                    <name>Open_table_definitions</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Open_table_definitions]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>c4ff6ed671db43119af8a32ebef3d8d6</uuid>
+                    <name>Questions</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Questions]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>4b84788cab5c424c8008d32d171d5057</uuid>
+                    <name>read_only</name>
+                    <type>TRAP</type>
+                    <key>MySQL[read_only]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>ba60ab27912449d9bd9ecf4314b6ea6c</uuid>
+                    <name>MySQL Reponsetime</name>
+                    <type>TRAP</type>
+                    <key>MySQL[reponsetime]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <units>s</units>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                    <triggers>
+                        <trigger>
+                            <uuid>cf7219848b4649e8b009f09029f0905f</uuid>
+                            <expression>count(/Template MySQL Monitor/MySQL[reponsetime],#2,&quot;gt&quot;,&quot;0.5&quot;)=2</expression>
+                            <name>MySQL Reponsetime greater than 0.5s</name>
+                            <priority>AVERAGE</priority>
+                        </trigger>
+                    </triggers>
+                </item>
+                <item>
+                    <uuid>472e9e3b1e2d44498fdbf6360262cfaa</uuid>
+                    <name>Select_full_join</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Select_full_join]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>7a3e44eb5a8840dd9acc90a809b32bb3</uuid>
+                    <name>Select_full_range_join</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Select_full_range_join]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>ad857bcaf307484192b5d1c0aaada3ce</uuid>
+                    <name>Select_scan</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Select_scan]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>1296b03fb4b944d0826092deafbbdec7</uuid>
+                    <name>State Sending data</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Sending_data]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>689875d33aff45f3b43c349229c66dca</uuid>
+                    <name>Stats Sleep</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Sleep]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>9895c2feafcd4a27b089365b071f687e</uuid>
+                    <name>Slow_queries</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Slow_queries]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>b89ddd97b4404d60bff665068392970f</uuid>
+                    <name>Sort_merge_passes</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Sort_merge_passes]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>994f08abb69f435fafcd422ac3962452</uuid>
+                    <name>Stats Creating sort index</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Stats_Creating_sort_index]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>2b5564817f7340b49f23168b4656dd4e</uuid>
+                    <name>Stats Locked</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Stats_Locked]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                    <triggers>
+                        <trigger>
+                            <uuid>c75608288e1b4e9ba49c9af07be23ca2</uuid>
+                            <expression>count(/Template MySQL Monitor/MySQL[Stats_Locked],#2,&quot;gt&quot;,&quot;0&quot;)=2</expression>
+                            <name>Stats Locked greater than 0</name>
+                            <priority>AVERAGE</priority>
+                        </trigger>
+                    </triggers>
+                </item>
+                <item>
+                    <uuid>efc75ada18684442a9a43767cba588ad</uuid>
+                    <name>State Other</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Stats_Other]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>824b265df50040aa8e79a9b6787da9e5</uuid>
+                    <name>Stats Tmp table</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Stats_tmp_table]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>2ac17431e72348a09745a8d8db5b64f2</uuid>
+                    <name>super_read_only</name>
+                    <type>TRAP</type>
+                    <key>MySQL[super_read_only]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>7c2a9075d4a64c7c840d9410eeb97ecd</uuid>
+                    <name>sync_binlog</name>
+                    <type>TRAP</type>
+                    <key>MySQL[sync_binlog]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>be4ed2e79f4c49dbb3c77e707ef62f61</uuid>
+                    <name>table_definition_cache</name>
+                    <type>TRAP</type>
+                    <key>MySQL[table_definition_cache]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>a35baa02ec134100b2251d9dded2b902</uuid>
+                    <name>Table_locks_immediate</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Table_locks_immediate]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>2edd00aae2aa4ebabb45d9ebabfa6987</uuid>
+                    <name>Table_locks_waited</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Table_locks_waited]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>bab861a2470e4f289489d9fc93b1b2a6</uuid>
+                    <name>table_open_cache</name>
+                    <type>TRAP</type>
+                    <key>MySQL[table_open_cache]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>a1a37a95ce0e45bab99b938efd87e93e</uuid>
+                    <name>Threads_connected</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Threads_connected]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>9aba5c04ffe0492b876e31b61015c476</uuid>
+                    <name>Threads_created</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Threads_created]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>dfd8170e0d0d4fe6b09cd2adf30155e6</uuid>
+                    <name>Threads_running</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Threads_running]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                    <triggers>
+                        <trigger>
+                            <uuid>dd3602f3111240b7ab22a4b101c28893</uuid>
+                            <expression>count(/Template MySQL Monitor/MySQL[Threads_running],#2,&quot;gt&quot;,&quot;20&quot;)=2</expression>
+                            <name>MySQL active threads more than 20</name>
+                            <priority>AVERAGE</priority>
+                            <dependencies>
+                                <dependency>
+                                    <name>MySQL is down on {HOST.NAME}</name>
+                                    <expression>count(/Template MySQL Monitor/MySQL[mysql_alive],#2,&quot;eq&quot;,&quot;0&quot;)=2</expression>
+                                </dependency>
+                            </dependencies>
+                        </trigger>
+                        <trigger>
+                            <uuid>cd55c49a4d3e4ba2afe4ad942026d202</uuid>
+                            <expression>count(/Template MySQL Monitor/MySQL[Threads_running],#2,&quot;gt&quot;,&quot;40&quot;)=2</expression>
+                            <name>MySQL active threads more than 40</name>
+                            <priority>AVERAGE</priority>
+                            <dependencies>
+                                <dependency>
+                                    <name>MySQL active threads more than 20</name>
+                                    <expression>count(/Template MySQL Monitor/MySQL[Threads_running],#2,&quot;gt&quot;,&quot;20&quot;)=2</expression>
+                                </dependency>
+                            </dependencies>
+                        </trigger>
+                    </triggers>
+                </item>
+                <item>
+                    <uuid>da33bccdd3304cef88be84c7167635b6</uuid>
+                    <name>Uncheckpointed</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Uncheckpointed]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <value_type>FLOAT</value_type>
+                    <units>B</units>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+                <item>
+                    <uuid>285aa6e4cd9f4716b8eac1edac381a57</uuid>
+                    <name>Uptime</name>
+                    <type>TRAP</type>
+                    <key>MySQL[Uptime]</key>
+                    <delay>0</delay>
+                    <history>30d</history>
+                    <units>s</units>
+                    <tags>
+                        <tag>
+                            <tag>Application</tag>
+                            <value>MySQL Monitor</value>
+                        </tag>
+                    </tags>
+                </item>
+            </items>
+            <dashboards>
+                <dashboard>
+                    <uuid>0e0886f0c34c4b6c8d42c7a130a181f8</uuid>
+                    <name>MySQL Graphs</name>
+                    <pages>
+                        <page>
+                            <widgets>
+                                <widget>
+                                    <type>GRAPH_CLASSIC</type>
+                                    <y>10</y>
+                                    <width>12</width>
+                                    <height>5</height>
+                                    <fields>
+                                        <field>
+                                            <type>GRAPH</type>
+                                            <name>graphid</name>
+                                            <value>
+                                                <name>innodb buffer pool / historylength / uncheckpoint</name>
+                                                <host>Template MySQL Monitor</host>
+                                            </value>
+                                        </field>
+                                    </fields>
+                                </widget>
+                                <widget>
+                                    <type>GRAPH_CLASSIC</type>
+                                    <width>12</width>
+                                    <height>5</height>
+                                    <fields>
+                                        <field>
+                                            <type>GRAPH</type>
+                                            <name>graphid</name>
+                                            <value>
+                                                <name>InnoDB Transactions Active/Locked</name>
+                                                <host>Template MySQL Monitor</host>
+                                            </value>
+                                        </field>
+                                    </fields>
+                                </widget>
+                                <widget>
+                                    <type>GRAPH_CLASSIC</type>
+                                    <x>12</x>
+                                    <y>5</y>
+                                    <width>12</width>
+                                    <height>5</height>
+                                    <fields>
+                                        <field>
+                                            <type>GRAPH</type>
+                                            <name>graphid</name>
+                                            <value>
+                                                <name>MySQL Connections/Threads</name>
+                                                <host>Template MySQL Monitor</host>
+                                            </value>
+                                        </field>
+                                    </fields>
+                                </widget>
+                                <widget>
+                                    <type>GRAPH_CLASSIC</type>
+                                    <y>15</y>
+                                    <width>12</width>
+                                    <height>5</height>
+                                    <fields>
+                                        <field>
+                                            <type>GRAPH</type>
+                                            <name>graphid</name>
+                                            <value>
+                                                <name>MySQL Files and Tables</name>
+                                                <host>Template MySQL Monitor</host>
+                                            </value>
+                                        </field>
+                                    </fields>
+                                </widget>
+                                <widget>
+                                    <type>GRAPH_CLASSIC</type>
+                                    <x>12</x>
+                                    <y>10</y>
+                                    <width>12</width>
+                                    <height>5</height>
+                                    <fields>
+                                        <field>
+                                            <type>GRAPH</type>
+                                            <name>graphid</name>
+                                            <value>
+                                                <name>MySQL Handlers</name>
+                                                <host>Template MySQL Monitor</host>
+                                            </value>
+                                        </field>
+                                    </fields>
+                                </widget>
+                                <widget>
+                                    <type>GRAPH_CLASSIC</type>
+                                    <y>20</y>
+                                    <width>12</width>
+                                    <height>5</height>
+                                    <fields>
+                                        <field>
+                                            <type>GRAPH</type>
+                                            <name>graphid</name>
+                                            <value>
+                                                <name>MySQL Network Traffic</name>
+                                                <host>Template MySQL Monitor</host>
+                                            </value>
+                                        </field>
+                                    </fields>
+                                </widget>
+                                <widget>
+                                    <type>GRAPH_CLASSIC</type>
+                                    <y>5</y>
+                                    <width>12</width>
+                                    <height>5</height>
+                                    <fields>
+                                        <field>
+                                            <type>GRAPH</type>
+                                            <name>graphid</name>
+                                            <value>
+                                                <name>MySQL Processlist State</name>
+                                                <host>Template MySQL Monitor</host>
+                                            </value>
+                                        </field>
+                                    </fields>
+                                </widget>
+                                <widget>
+                                    <type>GRAPH_CLASSIC</type>
+                                    <y>25</y>
+                                    <width>12</width>
+                                    <height>5</height>
+                                    <fields>
+                                        <field>
+                                            <type>GRAPH</type>
+                                            <name>graphid</name>
+                                            <value>
+                                                <name>MySQL Select / Sorts / Slow</name>
+                                                <host>Template MySQL Monitor</host>
+                                            </value>
+                                        </field>
+                                    </fields>
+                                </widget>
+                                <widget>
+                                    <type>GRAPH_CLASSIC</type>
+                                    <x>12</x>
+                                    <y>15</y>
+                                    <width>12</width>
+                                    <height>5</height>
+                                    <fields>
+                                        <field>
+                                            <type>GRAPH</type>
+                                            <name>graphid</name>
+                                            <value>
+                                                <name>MySQL Status</name>
+                                                <host>Template MySQL Monitor</host>
+                                            </value>
+                                        </field>
+                                    </fields>
+                                </widget>
+                                <widget>
+                                    <type>GRAPH_CLASSIC</type>
+                                    <x>12</x>
+                                    <y>25</y>
+                                    <width>12</width>
+                                    <height>5</height>
+                                    <fields>
+                                        <field>
+                                            <type>GRAPH</type>
+                                            <name>graphid</name>
+                                            <value>
+                                                <name>MySQL Temporary</name>
+                                                <host>Template MySQL Monitor</host>
+                                            </value>
+                                        </field>
+                                    </fields>
+                                </widget>
+                                <widget>
+                                    <type>GRAPH_CLASSIC</type>
+                                    <x>12</x>
+                                    <y>20</y>
+                                    <width>12</width>
+                                    <height>5</height>
+                                    <fields>
+                                        <field>
+                                            <type>GRAPH</type>
+                                            <name>graphid</name>
+                                            <value>
+                                                <name>MySQL TQPS / Command Counters</name>
+                                                <host>Template MySQL Monitor</host>
+                                            </value>
+                                        </field>
+                                    </fields>
+                                </widget>
+                                <widget>
+                                    <type>GRAPH_CLASSIC</type>
+                                    <x>12</x>
+                                    <width>12</width>
+                                    <height>5</height>
+                                    <fields>
+                                        <field>
+                                            <type>GRAPH</type>
+                                            <name>graphid</name>
+                                            <value>
+                                                <name>InnoDB Locks and waits</name>
+                                                <host>Template MySQL Monitor</host>
+                                            </value>
+                                        </field>
+                                    </fields>
+                                </widget>
+                            </widgets>
+                        </page>
+                    </pages>
+                </dashboard>
+            </dashboards>
+        </template>
+    </templates>
+    <triggers>
+        <trigger>
+            <uuid>64b54a5a1d174ca688cf958f0b910d94</uuid>
+            <expression>last(/Template MySQL Monitor/MySQL[Threads_connected])/last(/Template MySQL Monitor/MySQL[max_connections])&gt;0.6</expression>
+            <name>MySQL connections more than 60%</name>
+            <priority>AVERAGE</priority>
+        </trigger>
+        <trigger>
+            <uuid>7267d57533af448798f26f82a2d21ff1</uuid>
+            <expression>last(/Template MySQL Monitor/MySQL[Threads_connected])/last(/Template MySQL Monitor/MySQL[max_connections])&gt;0.8</expression>
+            <name>MySQL connections more than 80%</name>
+            <priority>AVERAGE</priority>
+        </trigger>
+    </triggers>
+    <graphs>
+        <graph>
+            <uuid>dfa4ff94f7ed4cab94abda383efef42f</uuid>
+            <name>innodb buffer pool / historylength / uncheckpoint</name>
+            <graph_items>
+                <graph_item>
+                    <color>1A7C11</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[historylength]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>1</sortorder>
+                    <color>F63100</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[innodb_buffer_pool_size]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>2</sortorder>
+                    <color>2774A4</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Innodb_buffer_pool_wait_free]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>3</sortorder>
+                    <color>611F27</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Uncheckpointed]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <uuid>03e009b1da7d49a584a717753f02df57</uuid>
+            <name>InnoDB Locks and waits</name>
+            <graph_items>
+                <graph_item>
+                    <color>BA68C8</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Table_locks_immediate]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>1</sortorder>
+                    <color>D1C4E9</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Table_locks_waited]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>2</sortorder>
+                    <color>2774A4</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Innodb_row_lock_current_waits]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>3</sortorder>
+                    <color>A54F10</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Innodb_row_lock_time]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>4</sortorder>
+                    <color>FF0000</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Innodb_row_lock_time_avg]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>5</sortorder>
+                    <color>6C59DC</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Innodb_row_lock_waits]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>6</sortorder>
+                    <color>B2EBF2</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Innodb_log_waits]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>7</sortorder>
+                    <color>89ABF8</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Uptime]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <uuid>661defa0fd764711a1a13711713cbaae</uuid>
+            <name>InnoDB Transactions Active/Locked</name>
+            <graph_items>
+                <graph_item>
+                    <color>FC6EA3</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[reponsetime]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>1</sortorder>
+                    <color>4DB6AC</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[active_time]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>2</sortorder>
+                    <color>90CAF9</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[active_transactions]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>3</sortorder>
+                    <color>F63100</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[innodb_locked_tables]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>4</sortorder>
+                    <color>26C6DA</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[innodb_tables_in_use]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>5</sortorder>
+                    <color>303F9F</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[locked_transactions]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <uuid>a682d1e924e1488d81e5d761eb827414</uuid>
+            <name>MySQL Connections/Threads</name>
+            <graph_items>
+                <graph_item>
+                    <color>1A7C11</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Aborted_clients]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>1</sortorder>
+                    <color>F63100</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Aborted_connects]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>2</sortorder>
+                    <color>2774A4</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[max_connections]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>3</sortorder>
+                    <color>A54F10</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Max_used_connections]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>4</sortorder>
+                    <color>FC6EA3</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[max_user_connections]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>5</sortorder>
+                    <color>AC8C14</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Threads_created]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>6</sortorder>
+                    <color>611F27</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Threads_running]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>7</sortorder>
+                    <color>F230E0</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Threads_connected]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <uuid>fdb818d02064456bb5aec276eb8107ab</uuid>
+            <name>MySQL Files and Tables</name>
+            <graph_items>
+                <graph_item>
+                    <color>1A7C11</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Opened_files]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>1</sortorder>
+                    <color>F63100</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Opened_tables]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>2</sortorder>
+                    <color>2774A4</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Opened_table_definitions]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>3</sortorder>
+                    <color>A54F10</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Open_files]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>4</sortorder>
+                    <color>FC6EA3</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Open_tables]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>5</sortorder>
+                    <color>6C59DC</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Open_table_definitions]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>6</sortorder>
+                    <color>AC8C14</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[table_definition_cache]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>7</sortorder>
+                    <color>611F27</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[table_open_cache]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>8</sortorder>
+                    <color>F230E0</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Binlog_cache_disk_use]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <uuid>e9bcaad58a6c4ab8aef6a76b380e812e</uuid>
+            <name>MySQL Handlers</name>
+            <graph_items>
+                <graph_item>
+                    <color>1A7C11</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Handler_read_key]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>1</sortorder>
+                    <color>F63100</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Handler_read_next]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>2</sortorder>
+                    <color>2774A4</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Handler_read_rnd]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>3</sortorder>
+                    <color>A54F10</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Handler_read_rnd_next]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <uuid>41e639083dcd4ac2813069cc782f9583</uuid>
+            <name>MySQL Network Traffic</name>
+            <graph_items>
+                <graph_item>
+                    <color>BCAAA4</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Bytes_sent]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>1</sortorder>
+                    <color>66BB6A</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Bytes_received]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <uuid>e7effe01bc5a42b08b49afc80473f19f</uuid>
+            <name>MySQL Processlist State</name>
+            <graph_items>
+                <graph_item>
+                    <color>1A7C11</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Stats_Other]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>1</sortorder>
+                    <color>F63100</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Sleep]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>2</sortorder>
+                    <color>2774A4</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Sending_data]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>3</sortorder>
+                    <color>A54F10</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Stats_Creating_sort_index]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>4</sortorder>
+                    <color>FC6EA3</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Stats_tmp_table]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>5</sortorder>
+                    <color>6C59DC</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Stats_Locked]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <uuid>056f17350ddb41b087dc8fa3ecb0b251</uuid>
+            <name>MySQL Select / Sorts / Slow</name>
+            <graph_items>
+                <graph_item>
+                    <color>2B5429</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Select_full_join]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>1</sortorder>
+                    <color>8048B4</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Select_full_range_join]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>2</sortorder>
+                    <color>FD5434</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Select_scan]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>3</sortorder>
+                    <color>87AC4D</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Sort_merge_passes]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>4</sortorder>
+                    <color>F230E0</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Slow_queries]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <uuid>ecaa74c0f9ee4f41b21a339617e96938</uuid>
+            <name>MySQL Status</name>
+            <graph_items>
+                <graph_item>
+                    <color>80DEEA</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[mysql_alive]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>1</sortorder>
+                    <color>1A7C11</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[innodb_flush_log_at_trx_commit]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>2</sortorder>
+                    <color>A54F10</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[sync_binlog]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>3</sortorder>
+                    <color>FC6EA3</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[read_only]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>4</sortorder>
+                    <color>6C59DC</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[super_read_only]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <uuid>67ab8f8bab164b72b8f8f200814f4695</uuid>
+            <name>MySQL Temporary</name>
+            <graph_items>
+                <graph_item>
+                    <color>FFF176</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Created_tmp_disk_tables]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>1</sortorder>
+                    <color>FFBF00</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Created_tmp_tables]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>2</sortorder>
+                    <color>4000FF</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Created_tmp_files]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <uuid>2c0a1fd272b54048a5a7ff94992cdb47</uuid>
+            <name>MySQL TQPS / Command Counters</name>
+            <graph_items>
+                <graph_item>
+                    <color>FFCDD2</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Questions]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>1</sortorder>
+                    <color>F44336</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Handler_commit]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>2</sortorder>
+                    <color>0040FF</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Handler_rollback]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>3</sortorder>
+                    <color>6C59DC</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Com_select]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>4</sortorder>
+                    <color>AC8C14</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Com_insert]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>5</sortorder>
+                    <color>611F27</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Com_update]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>6</sortorder>
+                    <color>F230E0</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Com_delete]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>7</sortorder>
+                    <color>5CCD18</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Com_commit]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>8</sortorder>
+                    <color>BB2A02</color>
+                    <item>
+                        <host>Template MySQL Monitor</host>
+                        <key>MySQL[Com_rollback]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+    </graphs>
+</zabbix_export>

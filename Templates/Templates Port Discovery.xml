@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zabbix_export>
+    <version>6.0</version>
+    <date>2022-04-13T09:08:11Z</date>
+    <groups>
+        <group>
+            <uuid>7df96b18c230490a9a0a9e2307226338</uuid>
+            <name>Templates</name>
+        </group>
+    </groups>
+    <templates>
+        <template>
+            <uuid>ee9fb36542d7433d88d1deae41f2d6dc</uuid>
+            <template>Templates Port Discovery</template>
+            <name>Templates Port Discovery</name>
+            <groups>
+                <group>
+                    <name>Templates</name>
+                </group>
+            </groups>
+            <discovery_rules>
+                <discovery_rule>
+                    <uuid>afd07f6d7a8f46599985767cb78e598d</uuid>
+                    <name>port_discovery</name>
+                    <key>tcp.port.discovery</key>
+                    <delay>1h</delay>
+                    <item_prototypes>
+                        <item_prototype>
+                            <uuid>3c3bb64524ea4fc58b845d77aa40f09a</uuid>
+                            <name>Port {#PORTNUM} listen state</name>
+                            <key>net.tcp.listen[{#PORTNUM}]</key>
+                            <delay>30</delay>
+                            <trigger_prototypes>
+                                <trigger_prototype>
+                                    <uuid>e4aaf90598f946a4b17d00cd79c1e9d0</uuid>
+                                    <expression>last(/Templates Port Discovery/net.tcp.listen[{#PORTNUM}])=0</expression>
+                                    <name>Port {#PORTNUM} Listen is Down</name>
+                                    <priority>WARNING</priority>
+                                </trigger_prototype>
+                            </trigger_prototypes>
+                        </item_prototype>
+                    </item_prototypes>
+                    <graph_prototypes>
+                        <graph_prototype>
+                            <uuid>002e9042dc3f47c4b5a73430e61b374c</uuid>
+                            <name>tcp.port.listen {#PORTNUM}</name>
+                            <graph_items>
+                                <graph_item>
+                                    <color>1A7C11</color>
+                                    <item>
+                                        <host>Templates Port Discovery</host>
+                                        <key>net.tcp.listen[{#PORTNUM}]</key>
+                                    </item>
+                                </graph_item>
+                            </graph_items>
+                        </graph_prototype>
+                    </graph_prototypes>
+                </discovery_rule>
+            </discovery_rules>
+            <dashboards>
+                <dashboard>
+                    <uuid>562b43019e164c038702d498f0330d98</uuid>
+                    <name>Port</name>
+                    <pages>
+                        <page>
+                            <widgets>
+                                <widget>
+                                    <type>GRAPH_PROTOTYPE</type>
+                                    <width>24</width>
+                                    <height>13</height>
+                                    <fields>
+                                        <field>
+                                            <type>INTEGER</type>
+                                            <name>rows</name>
+                                            <value>2</value>
+                                        </field>
+                                        <field>
+                                            <type>INTEGER</type>
+                                            <name>columns</name>
+                                            <value>4</value>
+                                        </field>
+                                        <field>
+                                            <type>GRAPH_PROTOTYPE</type>
+                                            <name>graphid</name>
+                                            <value>
+                                                <name>tcp.port.listen {#PORTNUM}</name>
+                                                <host>Templates Port Discovery</host>
+                                            </value>
+                                        </field>
+                                    </fields>
+                                </widget>
+                            </widgets>
+                        </page>
+                    </pages>
+                </dashboard>
+            </dashboards>
+        </template>
+    </templates>
+</zabbix_export>
